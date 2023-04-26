@@ -1,0 +1,82 @@
+/* reset css */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #add8e6;
+}
+
+/* container */
+.container {
+  border: 2px solid #000000e0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 12px;
+  background-color: #a9a9a9;
+  box-shadow: 0px 0px 12px #000000e0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.dateinput {
+  display: flex;
+  gap: 10px;
+}
+
+input,
+.inputtag {
+  border: 1px solid black;
+  padding: 5px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: rgba(214, 209, 209, 0.767);
+}
+
+.inputtag {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+input {
+  width: 50%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#calculateBtn {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px green;
+}
