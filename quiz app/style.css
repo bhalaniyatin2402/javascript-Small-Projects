@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 25px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.qustionLine {
+    padding: 0 0 10px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.questionLabel {
+    padding: 0 0 5px 15px;
+    display: block;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.qustionInput {
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.answer {
+    padding-bottom: 20px;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    width: 130px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input:checked{
+    color: red;
+}
+
+#quizScore {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 15px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.redcolor {
+    color: red;
+}
+
+.greencolor {
+    color: green;
+}
