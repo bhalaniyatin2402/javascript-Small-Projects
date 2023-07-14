@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="home.css" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1d5a1f058e.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Slabo+13px&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="form">
+      <input type="search" name="search" id="searchInput" value="" />
+    </div>
+    <div id="weatherStatus">
+      <!-- <i class="fa-sharp fa-solid fa-sun fa-4x" style="color: orange" id="weatherType"></i> -->
+    </div>
+
+    <div id="location">
+      <h3 id="city">
+        <i class="fa-solid fa-location-dot fa-xl"></i> <i id="cityname"></i>
+      </h3>
+      <div id="time">WED | OCT 23 | 11:20 PM</div>
+    </div>
+
+    <div id="temperature">
+      <p id="currtemp">00&deg;C</p>
+      <div id="tempminmax">
+        <p id="mintemp">Min 00&deg;C</p>
+        &nbsp; | &nbsp;
+        <p id="maxtemp">Max 00&deg;C</p>
+      </div>
+    </div>
+    <div id="alert"></div>
+  </div>
+
+  <script src="./getTime.js"></script>
+  <script src="./getTemp.js"></script>
+</body>
+
+</html>
